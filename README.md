@@ -1,5 +1,7 @@
 # 2048 Reinforcement Learning Environment
 
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+
 This project implements a gym-compatible 2048 game environment with PyTorch and Pygame. It includes multiple reinforcement learning algorithms to solve the 2048 game.
 
 ## Features
@@ -123,3 +125,14 @@ The project is designed to be extensible. You can:
 ## License
 
 MIT 
+
+## Changelog
+
+### v1.0.0 (2024-04-19)
+- Initial stable release
+- Implemented 2048 game environment with PyTorch backend
+- Added multiple RL algorithms: Random, DQN, Double DQN, Dueling DQN, REINFORCE, PPO
+- Integrated Pygame renderer for visualization
+- Added comprehensive training and evaluation scripts
+- Implemented vectorized environment for parallel training
+- Added detailed performance metrics and GPU monitoring 
